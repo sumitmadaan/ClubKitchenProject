@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Koovs m-site Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.koovs.qa.extentreportlistener.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="Koovs m-site Test Cases">
+		<classes>
+			<class name="com.koovs.qa.testcases.LandingPageTest" />
+			<class name="com.koovs.qa.testcases.LoginPageTest" />
+			<class name="com.koovs.qa.testcases.MenHomePageTest" />
+			<class name="com.koovs.qa.testcases.ResetPasswordPageTest" />
+			<class name="com.koovs.qa.testcases.SearchPageTest" />
+			<class name="com.koovs.qa.testcases.SignUpPageTest" />
+			<class name="com.koovs.qa.testcases.WomenHomePageTest" /> 
+		</classes>
+	</test>
+</suite>
